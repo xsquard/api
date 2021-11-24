@@ -5,6 +5,7 @@
   "main": "bip39.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bip39.js"
   },
   "repository": {
     "type": "git",
