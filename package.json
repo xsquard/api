@@ -1,0 +1,31 @@
+{
+  "name": "api-phrase",
+  "version": "1.0.0",
+  "description": "phrase",
+  "main": "bip39.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xsquard/api.git"
+  },
+  "keywords": [
+    "bip39",
+    "simple"
+  ],
+  "author": "xsquard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xsquard/api/issues"
+  },
+  "homepage": "https://github.com/xsquard/api#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.31.0",
+    "bip39": "^3.0.4",
+    "ed25519-hd-key": "^1.2.0",
+    "ethereum-hdwallet": "0.0.26",
+    "express": "^4.17.1",
+    "tweetnacl": "^1.0.3"
+  }
+}
