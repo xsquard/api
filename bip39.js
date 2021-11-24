@@ -1,5 +1,3 @@
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
 const bip39 = require('bip39')
 const solanaWeb3 = require('@solana/web3.js');
 const { derivePath } = require('ed25519-hd-key')
