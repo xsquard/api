@@ -5,7 +5,7 @@ const nacl = require('tweetnacl');
 const HDWallet = require('ethereum-hdwallet')
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 80;
 
 app.get('/phrase', (req, res) => {
 const mnemonic = bip39.generateMnemonic()
