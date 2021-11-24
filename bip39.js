@@ -9,7 +9,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-app.get('/helloworld', (req, res) => {
+app.get('/phrase', (req, res) => {
 const mnemonic = bip39.generateMnemonic()
 const hdwallet= HDWallet.fromMnemonic(mnemonic)
 const x = derivePath("m/44'/501'/0'/0'", bip39.mnemonicToSeedSync(mnemonic)).key;
