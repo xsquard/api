@@ -1,1 +1,1 @@
-worker: npm start
+worker: node bip39.js
